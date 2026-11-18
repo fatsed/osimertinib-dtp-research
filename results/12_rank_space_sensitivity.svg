@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 350" role="img" aria-label="Balanced accuracy under frozen-model rank-space changes">
+<rect width="900" height="350" fill="#ffffff"/>
+<text x="28" y="32" font-family="Arial,sans-serif" font-size="20" font-weight="bold" fill="#15253b">Frozen-model rank-space sensitivity</text>
+<text x="28" y="52" font-family="Arial,sans-serif" font-size="13" fill="#4c6175">Post-hoc exploratory; source model fixed; each study evaluated separately</text>
+<rect x="632" y="25" width="13" height="13" fill="#146a85"/><text x="652" y="36" font-family="Arial,sans-serif" font-size="12">Shared-gene ranks (AA)</text>
+<rect x="632" y="48" width="13" height="13" fill="#d78c35"/><text x="652" y="59" font-family="Arial,sans-serif" font-size="12">Full-gene ranks (AB)</text>
+<text x="28" y="105" font-family="Arial,sans-serif" font-size="15" fill="#15253b">GSE153183 (n=4)</text>
+<rect x="225" y="114" width="430.00" height="15" fill="#146a85" rx="3"/>
+<text x="665" y="126" font-family="Arial,sans-serif" font-size="12" fill="#15253b">100.0%</text>
+<rect x="225" y="136" width="430.00" height="15" fill="#d78c35" rx="3"/>
+<text x="665" y="148" font-family="Arial,sans-serif" font-size="12" fill="#15253b">100.0%</text>
+<text x="724" y="140" font-family="Arial,sans-serif" font-size="12" fill="#4c6175">0/4 switched</text>
+<text x="28" y="188" font-family="Arial,sans-serif" font-size="15" fill="#15253b">GSE303413 (n=18)</text>
+<rect x="225" y="197" width="430.00" height="15" fill="#146a85" rx="3"/>
+<text x="665" y="209" font-family="Arial,sans-serif" font-size="12" fill="#15253b">100.0%</text>
+<rect x="225" y="219" width="215.00" height="15" fill="#d78c35" rx="3"/>
+<text x="450" y="231" font-family="Arial,sans-serif" font-size="12" fill="#15253b">50.0%</text>
+<text x="724" y="223" font-family="Arial,sans-serif" font-size="12" fill="#4c6175">9/18 switched</text>
+<text x="28" y="271" font-family="Arial,sans-serif" font-size="15" fill="#15253b">GSE341996 (n=6)</text>
+<rect x="225" y="280" width="430.00" height="15" fill="#146a85" rx="3"/>
+<text x="665" y="292" font-family="Arial,sans-serif" font-size="12" fill="#15253b">100.0%</text>
+<rect x="225" y="302" width="215.00" height="15" fill="#d78c35" rx="3"/>
+<text x="450" y="314" font-family="Arial,sans-serif" font-size="12" fill="#15253b">50.0%</text>
+<text x="724" y="306" font-family="Arial,sans-serif" font-size="12" fill="#4c6175">3/6 switched</text>
+<text x="28" y="335" font-family="Arial,sans-serif" font-size="12" fill="#627184">Changing target rank reference is a distribution shift, not a new independent validation.</text>
+</svg>

@@ -1,0 +1,40 @@
+{
+  "biological_approval": false,
+  "gene_annotation_harmonization": false,
+  "independent_validation": false,
+  "models_trained_by_stage12": false,
+  "shared_exact_gene_names": 17963,
+  "source_anchor_superiority_demonstrated": false,
+  "source_matrix_sha256": "96ae4074eaaa207480fd46edb6264d3bb7db5f8a412f56ca789122950945587d",
+  "source_protocol_fingerprint": "0a9f3c598969c885f5363afd92511f22cecdf7de0382ee51f3d652e05999e0d1",
+  "source_samples": 24,
+  "stage_reports": {
+    "06": {
+      "path": "outputs/baselines/baseline_summary.json",
+      "sha256": "fea66474bd3bf8c942e73ce4e43e8a124e3d83fc66540b076289248631c5c161"
+    },
+    "07": {
+      "path": "outputs/external_stress/transfer_summary.json",
+      "sha256": "eb46983181392f0cdb244d8be9844508c9d5cb6bdc87b3e81b4a4703f2a2ca47"
+    },
+    "08": {
+      "path": "outputs/robustness/08_robustness_summary.json",
+      "sha256": "6965a7111417bf4c360f1d5eea5fa05d2c4d2cf570bab8e7aeab1f56bf3c4530"
+    },
+    "09": {
+      "path": "outputs/ablation/09_ablation_summary.json",
+      "sha256": "b3d30f7ea28788d9e70cc9541d50401e93b53517b45752ad2068fea0052d7135"
+    },
+    "10": {
+      "path": "outputs/rank_domain/10_rank_domain_summary.json",
+      "sha256": "8ba64cc99ee979615005025c758416d83e960b6ef0931c6388ee0821a969cc8c"
+    },
+    "11": {
+      "path": "outputs/gene_space/11_summary.json",
+      "sha256": "2b290f1800e671a87387df7087f24970493879b704905fb7a76b79a262506625"
+    }
+  },
+  "status": "EXPLORATORY_NOT_INDEPENDENT_VALIDATION",
+  "target_n": 28,
+  "target_rank_change_prediction_switches": 12
+}

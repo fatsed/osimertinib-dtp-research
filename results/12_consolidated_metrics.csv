@@ -1,0 +1,49 @@
+stage,scope,method,metric,value,n,note
+06,source_LOCO,DummyMostFrequent,balanced_accuracy,0.500000,24,same-study; exploratory
+06,source_LOCO,DummyMostFrequent,dtp_recall,0.000000,24,
+06,source_LOCO,LogisticRegression,balanced_accuracy,1.000000,24,same-study; exploratory
+06,source_LOCO,LogisticRegression,dtp_recall,1.000000,24,
+06,source_LOCO,LinearSVC,balanced_accuracy,1.000000,24,same-study; exploratory
+06,source_LOCO,LinearSVC,dtp_recall,1.000000,24,
+07,GSE153183,target_shared_ranks,balanced_accuracy,1.000000,4,posthoc inspected targets
+10,GSE153183,source_shared__target_shared,balanced_accuracy,1.000000,4,model fixed for AA vs AB
+10,GSE153183,source_shared__target_full,balanced_accuracy,1.000000,4,model fixed for AA vs AB
+10,GSE153183,source_full__target_shared,balanced_accuracy,1.000000,4,model fixed for AA vs AB
+10,GSE153183,source_full__target_full,balanced_accuracy,1.000000,4,model fixed for AA vs AB
+10,GSE153183,source_shared_model,prediction_switch_count,0.000000,4,AA vs AB
+07,GSE303413,target_shared_ranks,balanced_accuracy,1.000000,18,posthoc inspected targets
+10,GSE303413,source_shared__target_shared,balanced_accuracy,1.000000,18,model fixed for AA vs AB
+10,GSE303413,source_shared__target_full,balanced_accuracy,0.500000,18,model fixed for AA vs AB
+10,GSE303413,source_full__target_shared,balanced_accuracy,1.000000,18,model fixed for AA vs AB
+10,GSE303413,source_full__target_full,balanced_accuracy,0.500000,18,model fixed for AA vs AB
+10,GSE303413,source_shared_model,prediction_switch_count,9.000000,18,AA vs AB
+07,GSE341996,target_shared_ranks,balanced_accuracy,1.000000,6,posthoc inspected targets
+10,GSE341996,source_shared__target_shared,balanced_accuracy,1.000000,6,model fixed for AA vs AB
+10,GSE341996,source_shared__target_full,balanced_accuracy,0.500000,6,model fixed for AA vs AB
+10,GSE341996,source_full__target_shared,balanced_accuracy,1.000000,6,model fixed for AA vs AB
+10,GSE341996,source_full__target_full,balanced_accuracy,0.500000,6,model fixed for AA vs AB
+10,GSE341996,source_shared_model,prediction_switch_count,3.000000,6,AA vs AB
+09,three_study_macro,A_shared_genes_shared_ranks,balanced_accuracy,1.000000,,posthoc ablation
+09,three_study_macro,B_shared_genes_full_ranks,balanced_accuracy,0.666667,,posthoc ablation
+09,three_study_macro,C_source_only_selection_full_ranks,balanced_accuracy,0.666667,,posthoc ablation
+09,three_study_macro,D_source_selected_shared_rank_refit,balanced_accuracy,1.000000,,posthoc ablation
+08,three_study_macro,source_label_shuffled_within_cell_line,null_mean_bacc,0.482615,49,exploratory permutations
+08,three_study_macro,source_label_shuffled_within_cell_line,exploratory_tail,0.020000,49,not confirmatory p-value
+08,three_study_macro,external_gene_correspondence_broken,null_mean_bacc,0.499244,49,exploratory permutations
+08,three_study_macro,external_gene_correspondence_broken,exploratory_tail,0.020000,49,not confirmatory p-value
+11,background_30pct,all_gene_percentile,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,background_30pct,all_gene_percentile,prediction_switch_fraction,0.000000,48,
+11,background_30pct,source_anchor_ecdf,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,background_30pct,source_anchor_ecdf,prediction_switch_fraction,0.000000,48,
+11,background_50pct,all_gene_percentile,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,background_50pct,all_gene_percentile,prediction_switch_fraction,0.000000,48,
+11,background_50pct,source_anchor_ecdf,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,background_50pct,source_anchor_ecdf,prediction_switch_fraction,0.000000,48,
+11,all_10pct,all_gene_percentile,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,all_10pct,all_gene_percentile,prediction_switch_fraction,0.000000,48,
+11,all_10pct,source_anchor_ecdf,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,all_10pct,source_anchor_ecdf,prediction_switch_fraction,0.000000,48,
+11,all_25pct,all_gene_percentile,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,all_25pct,all_gene_percentile,prediction_switch_fraction,0.000000,48,
+11,all_25pct,source_anchor_ecdf,balanced_accuracy,1.000000,48,simulated masking; within-study
+11,all_25pct,source_anchor_ecdf,prediction_switch_fraction,0.000000,48,
