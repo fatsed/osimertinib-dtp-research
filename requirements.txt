@@ -1,0 +1,10 @@
+# Tested scientific Python environment for the exploratory source-only baseline.
+# Target local interpreter: Python 3.12.x (64-bit).
+# Keep versions pinned for reproducibility; update only after rerunning tests.
+# numpy and scikit-learn are used directly by scripts/06_baseline_models.py.
+# The remaining packages are explicit scikit-learn runtime dependencies.
+numpy==2.3.5
+scipy==1.17.0
+scikit-learn==1.8.0
+joblib==1.5.3
+threadpoolctl==3.6.0
